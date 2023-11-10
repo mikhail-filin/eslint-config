@@ -2,7 +2,7 @@
   "name": "@mfilin/eslint-config",
   "version": "0.0.1",
   "description": "Extendable configuration for eslint",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gortyser/eslint-config.git"
@@ -17,6 +17,10 @@
     "url": "https://github.com/Gortyser/eslint-config/issues"
   },
   "homepage": "https://github.com/Gortyser/eslint-config#readme",
+  "scripts": {
+    "lint:check": "eslint ./",
+    "lint:fix": "eslint ./ --fix"
+  },
   "devDependencies": {
     "eslint": "8.53.0",
     "eslint-plugin-import": "2.29.0"

@@ -4,7 +4,7 @@ module.exports = {
     commonjs: true,
     es2021: true,
   },
-  extends: 'eslint-recommended',
+  extends: 'eslint:recommended',
   overrides: [
     {
       env: {
@@ -22,5 +22,6 @@ module.exports = {
     ecmaVersion: 'latest',
   },
   rules: {
+    semi: ["error", "always"]
   },
 };
