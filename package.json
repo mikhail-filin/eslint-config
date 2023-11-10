@@ -1,33 +1,33 @@
 {
-  "name": "@mfilin/eslint-config",
-  "version": "0.0.2",
-  "description": "Extendable configuration for eslint",
-  "main": "eslint.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gortyser/eslint-config.git"
-  },
-  "keywords": [
-    "eslint",
-    "eslint-config"
-  ],
-  "author": "Mikhail Filin <mikhailf.codes@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/Gortyser/eslint-config/issues"
-  },
-  "homepage": "https://github.com/Gortyser/eslint-config#readme",
-  "scripts": {
-    "lint:check": "eslint ./",
-    "lint:fix": "eslint ./ --fix",
-    "prettier:check": "prettier . --check",
-    "prettier:fix": "prettier . --fix"
-  },
-  "devDependencies": {
-    "@mfilin/prettier-config": "1.1.0",
-    "eslint": "8.53.0",
-    "eslint-plugin-import": "2.29.0",
-    "prettier": "3.0.3"
-  },
-  "prettier": "@mfilin/prettier-config"
+	"name": "@mfilin/eslint-config",
+	"version": "0.0.2",
+	"description": "Extendable configuration for eslint",
+	"main": "eslint.config.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Gortyser/eslint-config.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config"
+	],
+	"author": "Mikhail Filin <mikhailf.codes@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Gortyser/eslint-config/issues"
+	},
+	"homepage": "https://github.com/Gortyser/eslint-config#readme",
+	"scripts": {
+		"lint:check": "eslint ./",
+		"lint:fix": "eslint ./ --fix",
+		"prettier:check": "prettier . --check",
+		"prettier:fix": "prettier . --write"
+	},
+	"devDependencies": {
+		"@mfilin/prettier-config": "1.1.0",
+		"eslint": "8.53.0",
+		"eslint-plugin-import": "2.29.0",
+		"prettier": "3.0.3"
+	},
+	"prettier": "@mfilin/prettier-config"
 }

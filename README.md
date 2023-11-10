@@ -13,6 +13,7 @@ npm i --save-dev @mfilin/eslint-config
 ## Configuration
 
 In package.json:
+
 ```json
 "eslintConfig": {
   "extends": "@mfilin/eslint-config"
