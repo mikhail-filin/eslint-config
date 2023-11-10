@@ -1,8 +1,8 @@
 {
   "name": "@mfilin/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extendable configuration for eslint",
-  "main": ".eslintrc.js",
+  "main": "eslint.config.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Gortyser/eslint-config.git"
