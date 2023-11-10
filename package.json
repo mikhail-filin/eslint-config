@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Gortyser/eslint-config/issues"
   },
-  "homepage": "https://github.com/Gortyser/eslint-config#readme"
+  "homepage": "https://github.com/Gortyser/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "8.53.0",
+    "eslint-plugin-import": "2.29.0"
+  }
 }
