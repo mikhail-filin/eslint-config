@@ -19,10 +19,15 @@
   "homepage": "https://github.com/Gortyser/eslint-config#readme",
   "scripts": {
     "lint:check": "eslint ./",
-    "lint:fix": "eslint ./ --fix"
+    "lint:fix": "eslint ./ --fix",
+    "prettier:check": "prettier . --check",
+    "prettier:fix": "prettier . --fix"
   },
   "devDependencies": {
+    "@mfilin/prettier-config": "1.1.0",
     "eslint": "8.53.0",
-    "eslint-plugin-import": "2.29.0"
-  }
+    "eslint-plugin-import": "2.29.0",
+    "prettier": "3.0.3"
+  },
+  "prettier": "@mfilin/prettier-config"
 }
