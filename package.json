@@ -1,8 +1,10 @@
 {
 	"name": "@mfilin/eslint-config",
-	"version": "0.0.4",
-	"description": "Extendable configuration for eslint",
+	"version": "0.0.5",
+	"license": "MIT",
+	"author": "Mikhail Filin <mikhailf.codes@gmail.com>",
 	"main": ".eslintrc.js",
+	"description": "Extendable configuration for eslint",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Gortyser/eslint-config.git"
@@ -11,12 +13,6 @@
 		"eslint",
 		"eslint-config"
 	],
-	"author": "Mikhail Filin <mikhailf.codes@gmail.com>",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Gortyser/eslint-config/issues"
-	},
-	"homepage": "https://github.com/Gortyser/eslint-config#readme",
 	"scripts": {
 		"lint:check": "eslint ./",
 		"lint:fix": "eslint ./ --fix",
@@ -28,6 +24,9 @@
 		"eslint": "8.53.0",
 		"eslint-plugin-import": "2.29.0",
 		"prettier": "3.0.3"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.0"
 	},
 	"prettier": "@mfilin/prettier-config"
 }

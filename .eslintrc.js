@@ -11,4 +11,5 @@ module.exports = {
 	rules: {
 		semi: ['error', 'always'],
 	},
+	reportUnusedDisableDirectives: true,
 };
