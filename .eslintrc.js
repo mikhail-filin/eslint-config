@@ -114,6 +114,7 @@ module.exports = {
 		'symbol-description': 'error',
 		'yoda': ['error', 'never', { exceptRange: true }],
 		// Layout & Formatting
+		'unicode-bom': 'error',
 	},
 	reportUnusedDisableDirectives: true,
 };
