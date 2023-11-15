@@ -108,6 +108,11 @@ module.exports = {
 		'prefer-promise-reject-errors': 'error',
 		'prefer-regex-literals': 'error',
 		'prefer-rest-params': 'error',
+		'prefer-spread': 'error',
+		'prefer-template': 'error',
+		'radix': 'error',
+		'symbol-description': 'error',
+		'yoda': ['error', 'never', { exceptRange: true }],
 		// Layout & Formatting
 	},
 	reportUnusedDisableDirectives: true,
