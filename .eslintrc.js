@@ -92,7 +92,7 @@ module.exports = {
 			{
 				allowShortCircuit: true,
 				allowTernary: true,
-				allowTaggedTemplate: true,
+				allowTaggedTemplates: true,
 			},
 		],
 		'no-useless-concat': 'error',
@@ -117,4 +117,13 @@ module.exports = {
 		'unicode-bom': 'error',
 	},
 	reportUnusedDisableDirectives: true,
+	ignorePatterns: [
+		'dist',
+		'coverage',
+		'package-lock.json',
+		'.eslintrc.js',
+		'.github',
+		'.vscode',
+		'.idea',
+	],
 };

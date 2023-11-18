@@ -16,6 +16,10 @@ In package.json:
 
 ```json
 "eslintConfig": {
-  "extends": "@mfilin/eslint-config"
+  "extends": "@mfilin"
 }
 ```
+
+## Future plans
+
+Use existing config as a base, create new ones for Typescript, Angular, Vue
