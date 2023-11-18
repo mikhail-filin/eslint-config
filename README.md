@@ -16,6 +16,13 @@ In package.json:
 
 ```json
 "eslintConfig": {
+  "extends": "@mfilin/eslint-config"
+}
+```
+
+Or `eslint-config` part can be omitted: 
+```json
+"eslintConfig": {
   "extends": "@mfilin"
 }
 ```
