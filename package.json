@@ -7,7 +7,7 @@
 	"description": "Extendable configuration for eslint",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Gortyser/eslint-config.git"
+		"url": "git+https://github.com/mikhail-filin/eslint-config.git"
 	},
 	"keywords": [
 		"eslint",

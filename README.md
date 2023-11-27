@@ -1,4 +1,4 @@
-![npm publish status](https://github.com/Gortyser/eslint-config/actions/workflows/npm-publish.yml/badge.svg)
+![npm publish status](https://github.com/mikhail-filin/eslint-config/actions/workflows/npm-publish.yml/badge.svg)
 
 # @mfilin/eslint-config
 
