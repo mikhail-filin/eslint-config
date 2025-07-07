@@ -12,6 +12,26 @@ npm i --save-dev @mfilin/eslint-config
 
 ## Configuration
 
+### ESLint Flat Config (Recommended)
+
+Create an `eslint.config.js` file in your project root:
+
+```js
+import mfilinConfig from '@mfilin/eslint-config';
+
+export default [
+  ...mfilinConfig,
+  // Your custom configuration
+  {
+    rules: {
+      // Your custom rules
+    }
+  }
+];
+```
+
+### Legacy Configuration (Deprecated)
+
 In package.json:
 
 ```json
@@ -27,6 +47,5 @@ Or `eslint-config` part can be omitted:
 }
 ```
 
-## Future plans
+> **Note:** The legacy configuration is deprecated and will be removed in a future version. Please migrate to the flat config format.
 
-Use existing config as a base, create new ones for Typescript, Angular, Vue

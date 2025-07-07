@@ -1,3 +1,7 @@
+/**
+ * @deprecated This file is deprecated. Please use eslint.config.js instead.
+ * This file is kept for backward compatibility but will be removed in a future version.
+ */
 module.exports = {
 	env: {
 		browser: true,

@@ -1,9 +1,10 @@
 {
 	"name": "@mfilin/eslint-config",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"license": "MIT",
+	"type": "module",
 	"author": "Mikhail Filin <mikhailf.codes@gmail.com>",
-	"main": ".eslintrc.js",
+	"main": "eslint.config.js",
 	"description": "Extendable configuration for eslint",
 	"repository": {
 		"type": "git",
@@ -20,10 +21,10 @@
 		"prettier:fix": "prettier . --write"
 	},
 	"devDependencies": {
-		"eslint": "8.53.0",
-		"eslint-plugin-import": "2.29.0",
-		"prettier": "3.0.3",
-		"@mfilin/prettier-config": "1.1.0"
+		"@mfilin/prettier-config": "1.1.0",
+		"eslint": "9.30.1",
+		"globals": "^16.3.0",
+		"prettier": "3.6.2"
 	},
 	"peerDependencies": {
 		"eslint": ">=8.0"
